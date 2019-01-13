@@ -1,0 +1,12 @@
+.experience-div{
+    color: white;
+    background-color: rgba(0,0,0,.13);
+}
+
+.experience-div .row{
+    border-bottom:1px dashed gainsboro;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:60px;
+    padding-bottom:70px;
+}

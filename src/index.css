@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Monda');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monda', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background: #06152C;
+}
+html{
+  /*scroll-behavior: smooth;*/
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container{
+  font-size: 18px;
+}

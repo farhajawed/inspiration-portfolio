@@ -1,0 +1,46 @@
+.skill-div{
+    color: white;
+    /*margin-top:150px;*/
+    background-color: rgba(0,0,0,.13);
+
+}
+
+.skill-div>.row{
+    border-bottom:1px dashed gainsboro;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:60px;
+    padding-bottom:70px;
+}
+.skill-div>.row:after{
+
+}
+
+.skill-name-div{
+    position: relative;
+    top:-15px;
+}
+
+.skill-square{
+    box-shadow: 0 4px 8px 0 gainsboro, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-exp,.language{
+    border-top:1px solid gainsboro;
+}
+
+.skill-square .col-md-6{
+    /*border-top:1px solid gainsboro;*/
+    padding: 10px;
+}
+
+.skill-group{
+    position: relative;
+    background-color: #B79BDC;
+    top:-25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'IM Fell English SC', serif;
+    color: black;
+    border-radius: 3px;
+}

@@ -1,0 +1,42 @@
+.education-div{
+    color: white;
+    background-color: rgba(0,0,0,.13);
+}
+
+.education-div .row{
+    border-bottom:1px dashed gainsboro;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:40px;
+    padding-bottom:70px;
+}
+
+.treemap{
+    min-height: 300px;
+}
+
+.school p{
+    line-height: 100%;
+}
+
+.school a{
+    /*font-weight: bold;*/
+    color: gainsboro;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.school a:hover {
+    color: #69E781;
+}
+
+.school p:last-child {
+    font-size:16px;
+}
+
+.school-div div{
+    /*background-color: #B79BDC;*/
+    padding-top:10px;
+    padding-bottom: 9px;
+    border-bottom:2px groove #B79BDC;
+}

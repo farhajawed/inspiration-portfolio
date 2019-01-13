@@ -1,0 +1,54 @@
+.about-div{
+    color:white;
+    /*line-height: 250%;*/
+    background-color: rgba(0,0,0,.13);
+}
+
+.about-div .row{
+    /*background-color: rgba(0,0,0,.13);*/
+    border-bottom:1px dashed gainsboro;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:60px;
+    padding-bottom:70px;
+}
+
+.my-image{
+    border-radius:5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:250px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.my-image2 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:250px;
+    border-radius:5%;
+    transform: rotate(-10deg);
+}
+
+
+
+.header{
+    color:#B79BDC;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.image-div{
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.coffee{
+    width:30px;
+    position:relative;
+    left:48%;
+    top:-20px;
+}
