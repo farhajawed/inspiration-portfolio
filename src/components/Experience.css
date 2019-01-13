@@ -3,10 +3,28 @@
     background-color: rgba(0,0,0,.13);
 }
 
-.experience-div .row{
-    border-bottom:1px dashed gainsboro;
+.experience-div >.row{
+    /*border-bottom:1px dashed gainsboro;*/
     padding-left:40px;
     padding-right:40px;
     padding-top:60px;
     padding-bottom:70px;
 }
+
+.name div{
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.name div.active{
+    background-color: #69E781;
+}
+
+.description p:first-child{
+    color: gainsboro;
+    text-decoration: none;
+    font-weight: bold;
+}
+

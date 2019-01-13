@@ -71,7 +71,7 @@ const Education=()=> {
                        </div>
                </div>
            </div>
-           <img src="images/coffee.png" className="coffee"/>
+           {/*<img src="images/coffee.png" className="coffee"/>*/}
        </div>
     )
 }
