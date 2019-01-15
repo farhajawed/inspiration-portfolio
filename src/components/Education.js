@@ -66,7 +66,7 @@ const Education=()=> {
                            <p>MS in Computer Science, 2018</p>
                        </div>
                        <div className="school">
-                           <p><i className="fa fa-graduation-cap"></i> <a href="">Military Institute of Science & Technology</a></p>
+                           <p><i className="fa fa-graduation-cap"></i> <a href="">Military Institute of Science & Technology, Dhaka, Bangladesh</a></p>
                            <p>BS in Computer Science & Engineering, 2015</p>
                        </div>
                </div>

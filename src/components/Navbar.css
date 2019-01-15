@@ -29,12 +29,12 @@ nav{
     width:8px;
 }
 
-.nav-link, .nav-link:visited {
+.custom-link, .custom-link:visited {
     text-decoration: none;
     position: relative;
     color: #69E781;
 }
-.nav-link:after, .nav-link:visited:after{
+.custom-link:after, .custom-link:visited:after{
     content: '';
     height: 2px;
     position: absolute;
@@ -44,7 +44,7 @@ nav{
     background: #69E781;
     transition: 0.5s;
 }
-.nav-link:hover:after, .nav-link:visited:hover:after {
+.custom-link:hover:after, .custom-link:visited:hover:after {
     width: 100%;
 }
 

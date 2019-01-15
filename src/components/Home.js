@@ -41,7 +41,7 @@ const Home =()=>{
                     <div className="col-md-8 col-12">
                         <div className="row mt-md-5">
                             <div className="col-md-12">
-                                <img src="images/me.png" className="avator" style={styles.bounce}/>
+                                <img src="images/girl.png" className="avator" style={styles.bounce}/>
                             </div>
                             <div className="intro-div col-md-12" style={styles.fadeInLeft}>
                                 <h3 className="intro-1 mb-4">Hi,</h3>
@@ -87,7 +87,7 @@ const Home =()=>{
                 </div>
             </div>
             <div className="text-center down">
-                <i className="fa fa-angle-down"></i>
+                <a href="#about"><i className="fa fa-angle-down"></i></a>
             </div>
         </div>
        </StyleRoot>

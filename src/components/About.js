@@ -3,7 +3,7 @@ import './About.css'
 
 const About=()=> {
     return (
-       <div className="container about-div mt-5">
+       <div className="container about-div mt-5" id="about">
            <div className="row">
                <div className="col-md-12 image-div text-center">
                    <img src="images/me.jpg" className="img-fluid my-image"/>
@@ -13,13 +13,29 @@ const About=()=> {
                    <h2>HELLO.</h2>
                </div>
                <div className="col-md-12 text-center">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque natus pariatur sed tenetur. Aliquid corporis incidunt inventore laboriosam minima nostrum quae quas, quo rem reprehenderit sit sunt tenetur voluptates voluptatibus.lorem
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt dolore fugit inventore iste magnam magni mollitia, porro quam quisquam? Ad aliquam amet dolorem libero natus quas saepe tenetur voluptatum.
-                  </p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi est facere hic nisi non omnis, pariatur provident quo vero? Aperiam reiciendis repudiandae tempora. Earum id itaque iure quas voluptatem.</p>
+                 <p>
+                  I am a full-stack web developer and designer. I am passionate about designing and developing
+                     user-friendly, responsive and interactive websites. I have graduated with a Masters degree in
+                     Computer Science from Northeastern University in December 2018 with specialization in
+                     Human-Computer Interaction. Towards the goal of improving user experience,
+                     I am constantly improving my skills
+                     and learing new tools pertinent to web development. I have designed and
+                     developed 10+ dynamic websites from scratch on e-commerce, web-based games,
+                     online diary, and data visualization with a focus on user experience.
+                     I am seeking internship opportunities in web development,
+                     human-computer interaction, and user experience design sectors.
+                     You can view my past projects by clicking on my <a href="" className="custom-link">Portfolio</a> page.
+                     Continue to scroll down to know about my education, skills, and experience.
+                 </p>
+                 <p>
+                     FUN FACT: I am passionate about origami. I enjoy cutting and folding papers to design new patterns.
+                 </p>
+               </div>
+               <div className="col-md-12 text-center">
+                   <img src="images/coffee.png" className="coffee"/>
                </div>
            </div>
-           <img src="images/coffee.png" className="coffee"/>
+
        </div>
     )
 }

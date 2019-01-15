@@ -1,0 +1,11 @@
+.message{
+    color: white;
+    padding:10px;
+    border:5px solid gainsboro;
+    display: inline-block;
+    /*background: white;*/
+}
+
+.custom-link:hover{
+    text-decoration: none;
+}

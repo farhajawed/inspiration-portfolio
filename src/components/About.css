@@ -32,11 +32,6 @@
     border-radius:5%;
     transform: rotate(-10deg);
 }
-.image-div{
-    position: relative;
-    top:0;
-    left:0;
-}
 
 
 .header{
@@ -46,7 +41,4 @@
 
 .coffee{
     width:50px;
-    position:relative;
-    left:49%;
-    top:-20px;
 }

@@ -26,10 +26,10 @@ const Navbar=(props)=> {
                 <div className="collapse navbar-collapse"
                      id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
-                        <a className={props.current==='Home'?'nav-item nav-link active':'nav-item nav-link'}
+                        <a className={props.current==='Home'?'nav-item nav-link custom-link active':'custom-link nav-item nav-link'}
                                       href="#">ABOUT</a>
-                        <a className="nav-item nav-link" href="#">PORTFOLIO</a>
-                        <a className="nav-item nav-link" href="#">RESUME</a>
+                        <a className="nav-item nav-link custom-link" href="#">PORTFOLIO</a>
+                        <a className="nav-item nav-link custom-link" href="#">RESUME</a>
                     </div>
                 </div>
             </nav>

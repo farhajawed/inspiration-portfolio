@@ -12,38 +12,34 @@
     padding-top:60px;
     padding-bottom:70px;
 }
-.skill-div>.row:after{
 
-}
 
-.skill-name-div{
-    position: relative;
-    top:-15px;
-}
-
-.skill-square{
-    /*box-shadow: 0 4px 8px 0 gainsboro, 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    border-left:1px solid gainsboro;
-    border-right:1px solid gainsboro;
-    border-bottom:1px solid gainsboro;
-}
-
-.user-exp,.language,.back-end,.front-end{
-    border-top:1px solid gainsboro;
-}
-
-.skill-square .col-md-6{
-    /*border-top:1px solid gainsboro;*/
+.name-div{
+    background: rgba(0,0,0,.3);
+    border-radius: 5px;
+    top:0;
     padding: 10px;
+    border: 1px solid rgba(0,0,0,.3);
 }
 
-.skill-group{
+
+.circle{
+    border:2px solid #69E781;
+    width:128px;
+    height:128px;
+    margin:0 auto;
+    border-radius: 50%;
+    background: black;
+}
+
+.bg-img{
     position: relative;
-    background-color: #B79BDC;
-    top:-25px;
-    font-weight: bold;
+    top:30px;
+    width:60px;
+}
+
+.skill-grp-name{
+    background: black;
     text-transform: uppercase;
-    font-family: 'IM Fell English SC', serif;
-    color: black;
-    border-radius: 3px;
+    color:#B79BDC;
 }
