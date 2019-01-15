@@ -33,7 +33,7 @@ class Experience extends React.Component{
                         <h4>EXPERIENCE.</h4>
                     </div>
                     <div className="col-12 exp">
-                        <div className="row">
+                        <div className="row text-md-left text-center">
                             <List currentPage={this.state.currentPage}
                                   handlePageChange={this.handlePageChange}/>
                             {this.renderPage()}

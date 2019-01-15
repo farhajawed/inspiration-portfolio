@@ -16,6 +16,7 @@ nav{
     color:whitesmoke;
 }
 
+
 .navbar-toggler {
     border-color: #69E781;
 }
@@ -33,7 +34,7 @@ nav{
     position: relative;
     color: #69E781;
 }
-.nav-link:after, .nav-link:visited:after {
+.nav-link:after, .nav-link:visited:after{
     content: '';
     height: 2px;
     position: absolute;
@@ -47,4 +48,6 @@ nav{
     width: 100%;
 }
 
-/*7D38CE B79BDC*/
+.navbar-nav .active{
+    color: #69E781 !important;
+}

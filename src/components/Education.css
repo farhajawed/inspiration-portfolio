@@ -1,6 +1,6 @@
 .education-div{
     color: white;
-    background-color: rgba(0,0,0,.13);
+    /*background-color: rgba(0,0,0,.13);*/
 }
 
 .education-div .row{
@@ -38,5 +38,5 @@
     /*background-color: #B79BDC;*/
     padding-top:10px;
     padding-bottom: 9px;
-    border-bottom:2px groove #B79BDC;
+    /*border-bottom:2px groove #69E781;*/
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 const List = (props)=>
-    <div className="col-md-4 name text-center">
+    <div className="col-md-4 name text-center m-2 m-md-0">
         <div onClick={() => props.handlePageChange("Northeastern")}
              className={props.currentPage === "Northeastern" ? "active" : ""}>
               Northeastern University

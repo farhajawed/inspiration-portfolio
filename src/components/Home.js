@@ -35,7 +35,7 @@ const Home =()=>{
      return(
      <StyleRoot >
         <div className="home-div">
-            <Navbar/>
+            <Navbar current="Home"/>
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 col-12">

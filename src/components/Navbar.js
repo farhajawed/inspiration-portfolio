@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 
-const Navbar=()=> {
+const Navbar=(props)=> {
     function renderDots(){
         let dots=[];
         for(var i= 0; i<8;i++){
@@ -12,10 +12,6 @@ const Navbar=()=> {
     return (
             <nav className="navbar navbar-expand-lg pr-md-5 float-md-right">
                 <a className="navbar-brand" href="/">
-                    {/*{renderDots().map((dot,i)=>*/}
-                        {/*<img key={i}*/}
-                             {/*src="images/dots.png"*/}
-                             {/*className="dots ml-3 d-none d-md-inline-block"/>)}*/}
                     <img src="images/brand.png" className="brand ml-2"/>
                 </a>
                 <button className="navbar-toggler"
@@ -30,8 +26,9 @@ const Navbar=()=> {
                 <div className="collapse navbar-collapse"
                      id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
-                        <a className="nav-item nav-link" href="#">ABOUT</a>
-                        <a className="nav-item nav-link" href="#">WORKS</a>
+                        <a className={props.current==='Home'?'nav-item nav-link active':'nav-item nav-link'}
+                                      href="#">ABOUT</a>
+                        <a className="nav-item nav-link" href="#">PORTFOLIO</a>
                         <a className="nav-item nav-link" href="#">RESUME</a>
                     </div>
                 </div>

@@ -34,7 +34,8 @@ const Skill=()=> {
                        </div>
                        <div className="col-md-6 user-exp">
                            <div className="skill-group"><i className="fa fa-map"></i> User Experience</div>
-                           <div className="skill-name-div">Wireframing<br/>
+                           <div className="skill-name-div">
+                               Wireframing<br/>
                                Paper Prototyping<br/>
                                Usability and User Research<br/>
                                User Interface Design
@@ -42,7 +43,8 @@ const Skill=()=> {
                        </div>
                        <div className="col-md-6 language">
                            <div className="skill-group"><i className="fa fa-code"></i> Programming Languages</div>
-                           <div className="skill-name-div">Java<br/>
+                           <div className="skill-name-div">
+                               Java<br/>
                                JavaScript<br/>
                                Python
                            </div>

@@ -1,7 +1,7 @@
 .skill-div{
     color: white;
     /*margin-top:150px;*/
-    background-color: rgba(0,0,0,.13);
+    /*background-color: rgba(0,0,0,.13);*/
 
 }
 
@@ -22,10 +22,13 @@
 }
 
 .skill-square{
-    box-shadow: 0 4px 8px 0 gainsboro, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 4px 8px 0 gainsboro, 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
 }
 
-.user-exp,.language{
+.user-exp,.language,.back-end,.front-end{
     border-top:1px solid gainsboro;
 }
 
