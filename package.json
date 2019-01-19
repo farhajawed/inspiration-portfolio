@@ -1,12 +1,13 @@
 {
   "name": "inspiration-portfolio",
   "version": "0.1.0",
+  "homepage": "http://farha-neu.github.io/inspiration-portfolio",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "d3plus-react": "^0.5.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6",
     "radium": "^0.25.1",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
