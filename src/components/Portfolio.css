@@ -44,33 +44,6 @@
     background-color: steelblue;
 }
 
-/*.project-four{*/
-    /*color: black;*/
-    /*background-color: linen;*/
-/*}*/
-
-/*.project-five{*/
-    /*color:whitesmoke;*/
-    /*background-color: steelblue;*/
-/*}*/
-
-/*.project-six{*/
-    /*color:black;*/
-    /*background-color: paleturquoise;*/
-/*}*/
-
-/*.project-seven{*/
-    /*color:whitesmoke;*/
-    /*background-color: darkslateblue;*/
-/*}*/
-
-/*.project-eight{*/
-    /*color:whitesmoke;*/
-    /*background-color: cadetblue;*/
-/*}*/
-/*.project-six .project-name, .project-four .project-name{*/
-    /*color: black;*/
-/*}*/
 
 .portfolio-div{
     color: whitesmoke;
@@ -82,12 +55,18 @@ Project styles
 .project-div{
     padding-top: 80px;
     padding-bottom: 80px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 
 .project-image{
     max-width:650px;
     width:100%;
+    box-shadow:
+            0 0 0 20px black,
+            0 0 0 25px silver;
+    border-radius: 1%;
 }
 
 .project-name{
@@ -96,11 +75,14 @@ Project styles
     font-weight: bold;
 }
 
-.project-tech span{
+.project-tech div{
     padding:5px;
     border-radius: 5px;
     background: rgba(0,0,0,.14);
     font-size: 14px;
+    word-wrap:break-word;
+    display: inline-block;
+
 }
 
 .project-tech span:not(:last-child){
@@ -120,14 +102,7 @@ Project styles
     background: #2a4444;
 }
 
-.carousel-img{
-    max-width: 700px;
-    margin:0 auto;
-}
 
-.slider-img{
-    border:1px solid white;
-}
 
 .project-header{
     font-family: 'IM Fell English SC', serif;

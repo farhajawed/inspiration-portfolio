@@ -17,15 +17,12 @@ const About=()=> {
                   I am a full-stack web developer and designer. I am passionate about designing and developing
                      user-friendly, responsive and interactive websites. I have graduated with a Masters degree in
                      Computer Science from Northeastern University in December 2018 with specialization in
-                     Human-Computer Interaction. Towards the goal of improving user experience,
-                     I am constantly improving my skills
-                     and learing new tools pertinent to web development. I have designed and
+                     Human-Computer Interaction. I have designed and
                      developed 10+ dynamic websites from scratch on e-commerce, web-based games,
                      online diary, and data visualization with a focus on user experience.
                      I am seeking internship opportunities in web development,
                      human-computer interaction, and user experience design sectors.
                      You can view my past projects by clicking on my <a href="" className="custom-link">Portfolio</a> page.
-                     Continue to scroll down to know about my education, skills, and experience.
                  </p>
                  <p>
                      FUN FACT: I am passionate about origami. I enjoy cutting and folding papers to design new patterns.

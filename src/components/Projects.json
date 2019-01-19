@@ -8,27 +8,27 @@
     "summary":"A user-centric website that stores data on eating habit, compiles the data into useful information and visualizes it for self-reflection on eating behaviour. The visualizations includean interactive scatter plot, bar chart, line graph, and parallel co-ordinate plot.",
     "webLink":"https://farha-neu.github.io/dsViz/",
     "github":"https://github.com/farha-neu/dsViz",
-    "image":"mock.png",
+    "image":"project1.png",
     "detail":{
-      "summary":"A user-centric website that stores data on eating habit, compiles the data into useful information",
-      "images":["eat.PNG","eat1.png","eat2.png"],
-      "about":"ghggggffrererryryryttgvbvxsqewertyucvbjjwertyasdfghj"
+      "summary":"Visualization of Eating Experience is a final group project for my CS7295- Information Visualization course, aimed at promoting self-reflection on eating behaviour.",
+      "images":["eat.PNG","eat1.png","eat2.png","eat3.png"],
+      "about":"Eating experience can be influenced by a variety of factors, including external elements (e.g., time, location, companion, weather, distraction) and internal elements (e.g., mood, how hungry you are). The goal of this website is to promote awareness of healthy eating and potentially change eating behavior. We built our visualizations using d3, and JavaScript. All the visualizations are interactive and tailored to clearly demonstrate the trends and patterns of the data. Edward Tufte's graphical integrity principles were followed for all visualizations."
     }
   },
   {
     "id":"2",
-    "name":"The Advisor",
+    "name":"CCIS Graduate Academic Advisor(CGAA)",
     "technologies":[
       "Angular","MongoDB","HTML5","CSS3","JavaScript"
     ],
     "summary":"A user interface built for providing course recommendations to graduate students of CCIS based on personalized preferences. The prototype went through various phases of user evaluations - requirement analysis, paper & computer prototyping, and a final usability study.",
-    "webLink":"coming-up",
+    "webLink":"https://farha-neu.github.io/advisors/login.html",
     "github":"https://github.com/farha-neu/CCIS-Advisors",
-    "image":"mock.png",
+    "image":"project2.png",
     "detail":{
-      "summary":"",
-      "images":[],
-      "about":""
+      "summary":"CCIS Graduate Academic Advisor(CGAA) is a web application designed, implemented and evaluated to help graduate students of College of Computer and Information Sciences(CCIS) with course selection based on personalized preferences during their initial semesters at Northeastern University.",
+      "images":["p2-8.png","p2.png","p2-1.png","p2-2.png","p2-3.png","p2-4.png","p2-5.png","p2-6.png","p2-7.png"],
+      "about":"CGAA is a platform where a user needs to fill out a questionnaire and the system recommends courses based on personalized preferences. Here students can get course recommendations with important course details and post their queries for feedback. I collaborated with a team of five students to design the application. I helped in conducting the various phases of user evaluations - requirement analysis, paper & computer prototyping, and a final usability study.  At each iteration we analyzed the findings, and major flaws were corrected, which resulted in an enhanced overall user experience as found by our final usability study."
     }
   },
   {
@@ -44,11 +44,11 @@
     "summary": "MTandL is a front-end based music app that allows users to search for their favorite artist, and get the artist's information, top trending tracks, a map of the nearby events, and the artist's upcoming events with links to purchase tickets.",
     "webLink": "https://farha-neu.github.io/Music-Ticket-Lyrics/",
     "github": "https://github.com/farha-neu/Music-Ticket-Lyrics",
-    "image": "mock.png",
+    "image": "project3.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "MT&L is a front-end web application built primarily with jQuery and six third-party APIs.",
+      "images": ["music.PNG","music1.png","music2.PNG"],
+      "about": "MT&L is a front-end based go-to music application built using jQuery and multiple third-party APIs, e.g. Bands In Town, Last.fm, Youtube, Google Maps, Ticketmaster, and API Seeds Lyrics API. Materialize, a modern responsive framework, is used in the front-end. It opens up with a beautiful welcome page that brings the user to a search form. Input your favorite artist into the search form and everything you have ever wanted is right at your fingertips! - the artist's information, the artist's top trending tracks, a map of the nearby events, and the artists upcoming events with links to purchase tickets. You can even watch their music videos directly from our app along with the lyrics scrolling by! Furthermore, you can also search the top trending tracks by genre with the conveniently provided options on the search form and play their music videos directly from the site as well. Once you have decided which artist you would like to easily access again, you can save them to your favorites section! This website was built from scratch in seven days in a group of three as a part of UCLA coding bootcamp."
     }
   },
   {
@@ -68,11 +68,11 @@
     "summary": "A web application that gives users a place to post about fun things that are going on in their local area. Other users can make comments on the posts and ask questions.",
     "webLink": "https://dry-savannah-57068.herokuapp.com/",
     "github": "https://github.com/farha-neu/ask-a-local",
-    "image": "mock.png",
+    "image": "project4.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "Native spot is a web application that gives users a place to post about fun things that are going on in their local area.",
+      "images": ["spot.png","spot1.png","spot2.png","spot4.png","spot5.png","spot6.png"],
+      "about": "Native Spot is a place for users to write about places, restaurants, and shopping. The purpose of the website is to help users who are visiting an area they are unfamiliar with. The users can know about places of attraction, convenient malls to shop, and good restaurants to dine-in. Users need to sign up and log in to use this application. Once they log in, they will land on a dashboard page that allows them to view their profile and add/edit details. They can share their posts by selecting a category and other users can make comments on the posts and ask questions. It also has an administrator functionality to add/edit categories, enable/disable users' profiles and moderate users' posts. The future extension of this ongoing project is to categorize posts based on location and integrate google maps.The front-end was built using Bootstrap, jQuery; backend relies on Node.js, Express, MySql, and Sequelize. This website was built from scratch in seven days in a group of three as a part of UCLA coding bootcamp. "
     }
   },
   {
@@ -89,13 +89,14 @@
       "CSS3"
     ],
     "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
-    "webLink": "https://dry-savannah-57068.herokuapp.com/",
-    "github": "https://github.com/farha-neu/ask-a-local",
-    "image": "mock.png",
+    "videoLink": "https://www.youtube.com/watch?v=VHqKyLIAfF4",
+    "github": "https://github.com/farha-neu/CS5200--Bookworm",
+    "gitWiki":"https://github.com/farha-neu/CS5200--Bookworm/wiki",
+    "image": "project5.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "Bookworm is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
+      "images": ["book.png","book1.PNG","book2.PNG","book3.png"],
+      "about": "It is a backend focused team project (2 members) for the Database course to explore the option of easy online buying, searching, and selling of books. Through Bookworm, a users can buy, search, and sell any book from the comfort of home. While all customers can search for books of their interest, only the registered customers can add/update books to their cart or wish-list, sell books, update their profile information, and view their sales and order history. The portal also provides direct communication between the buyer and the seller, via messaging. The registered customer can also write reviews for any book available. Google Books API was used to query the list of books.\nThe project follows three tier architecture:<br/>Presentation Tier: JSP and JavaScript.<br/>Application Tier: Spring MVC and Hibernate.<br/>Data Tier: MySQL. "
     }
   },
   {
@@ -111,14 +112,14 @@
       "HTML5",
       "CSS3"
     ],
-    "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
+    "summary": "Donate It! is an application for donating items that you don't need anymore. Users can post items for donation and interested users can send a request to the donor for approval. User's profile lists all items available for donation, past donated items, incoming requests, and status of sent requests.",
     "webLink": "http://donate-it.herokuapp.com/",
     "github": "https://github.com/farha-neu/donate-it",
-    "image": "mock.png",
+    "image": "project6.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "Donate It! is a MERN stack web application built to make the process of donation easier for people.",
+      "images": ["donate.PNG","donate1.PNG","donate2.PNG","donate3.PNG","donate4.PNG"],
+      "about": "Donate It! is a platform built using React, Mongoose, Node.js and Express to make the process of donation easier for people. You may be relocating to a new place or your items may be becoming old, or you may simply want to help people in need- Donate It! is just for you. Users can search for items by name, category and/or location defined by maximum distance from a given zipcode. In order to post or request an item, users need to sign up first. After a user logs in to our system, he/she will be able to send a request for an item and post new items up for donation. When the donor accepts the request for donation, that item will no longer be available in search. The future extension for this project will include a feature for swapping of items. Users will get points based on the number of products they donated and reviews from other users to whom they donated the items."
     }
   },
   {
@@ -134,14 +135,14 @@
       "HTML5",
       "CSS3"
     ],
-    "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
-    "webLink": "http://donate-it.herokuapp.com/",
-    "github": "https://github.com/farha-neu/donate-it",
-    "image": "mock.png",
+    "summary": "A React-based New York Times Article Search application. Users can search for articles by topic as well as start and end years. The applicattion will show the result from API in a rendered list with article title, publication date, and author name. It also allows the user to visit an article's url or save the article for future reference. ",
+    "webLink": "https://newyork-times.herokuapp.com/",
+    "github": "https://github.com/farha-neu/nyt-search",
+    "image": "project7.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "Newyork Times Article Scrubber is an SPA (Single Page Application) that I created during my initial days of learning React.",
+      "images": ["ny.png","ny1.png"],
+      "about": "The purpose of the website is to search and save articles published in New York Times. The home page has search options for querying the New York Times API for articles by topic and optional start and end years. It displays the results from the API search in a rendered list that contains the article title, publication date, and author's name. It also allows the user to visit an article's url or save the article for future reference. It is built using React, Node.js, Express, Mongoose, MongoDB, and Bootstrap. "
     }
   },
   {
@@ -159,11 +160,11 @@
     "summary": "A web app that automatically scrapes food articles from Washington Post and lets users view and leave comments on those articles. Users can also manually scrape new articles and clear existing ones. ",
     "webLink": "https://food-article-scraper.herokuapp.com/",
     "github": "https://github.com/farha-neu/food-article-scraper",
-    "image": "mock.png",
+    "image": "project8.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "Food Article Scraper is a small web application that I built to utilize the newly gained skill of scraping web contents.",
+      "images": ["food.png","food1.png"],
+      "about": "It is a web app that scrapes food articles from Washington Post using Cheerio NPM package. Whenever a user visits the site, the app scrapes food stories from Washington Post and displays them for the user. Each scraped article is saved to the application database (MongoDB). Users can save articles from home page to revisit them later and leave comments on the saved articles. Users can also delete previous comments left. It is built using jQuery, Node.js, Express, Mongoose, MongoDB, and Bootstrap. "
     }
   },
   {
@@ -180,11 +181,11 @@
     "summary": "It is a simple front end memory game that renders different images on screen. The goal of the user is to remember the last fruit he/she clicked on. If he/she clicks on the same image more that once, the game restarts. ",
     "webLink": "https://farha-neu.github.io/click-game/",
     "github": "https://github.com/farha-neu/click-game",
-    "image": "mock.png",
+    "image": "project9.png",
     "detail": {
-      "summary": "",
-      "images": [],
-      "about": ""
+      "summary": "It is a memory game built for kids using React.",
+      "images": ["click-game.png"],
+      "about": "It is a simple front end memory game built using React that renders different images of fruits on the screen. The application keeps track of the user's score. The user's score is incremented by clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once. Every time an image is clicked, the images rendered to the page reshuffle. Once the user's score is reset after an incorrect guess, the game restarts. "
     }
   }
 ]

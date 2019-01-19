@@ -5,14 +5,11 @@ const PortfolioIntro = ()=>
         <div className="container">
             <div className="portfolio-intro-div row">
                 <div className="col-md-12">
-                    <p className="portfolio-intro-header">Lorem ipsum dolor sit am.</p>
+                    <p className="portfolio-intro-header">What I've Built</p>
                 </div>
                 <div className="col-md-6 offset-md-3">
                     <p className="portfolio-intro-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Ab distinctio dolore dolorem earum eos hic illum sapiente
-                        sint temporibus! Accusantium animi assumenda commodi explicabo
-                        facere fuga perspiciatis quae quo, reiciendis.
+                        Checkout some of my recent software development projects.
                     </p>
                 </div>
             </div>

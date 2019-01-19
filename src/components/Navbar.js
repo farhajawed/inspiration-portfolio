@@ -34,7 +34,8 @@ const Navbar=(props)=> {
                         <Link className={props.current==='Portfolio'?'nav-item nav-link custom-link active'
                                        :'custom-link nav-item nav-link'}
                                        to="/portfolio">PORTFOLIO</Link>
-                        <Link className="nav-item nav-link custom-link" to="#">RESUME</Link>
+                        <a href="https://drive.google.com/open?id=1FeKZIzyMFXyMexIiFGFjPNGZsGZtNXPt"
+                           className="nav-item nav-link custom-link" target="_blank">RESUME</a>
                     </div>
                 </div>
             </nav>

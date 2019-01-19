@@ -179,3 +179,12 @@
         position:relative;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .intro-div h1{
+        font-size:26px;
+    }
+    .intro-div h2{
+        font-size:23px;
+    }
+}

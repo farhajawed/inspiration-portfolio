@@ -1,11 +1,9 @@
 import React from 'react'
 import './Home.css'
 import { fadeInLeft } from 'react-animations'
-import { fadeInRight } from 'react-animations'
 import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import Slide from 'react-reveal/Slide';
-import axios from "axios";
 import Navbar from '../components/Navbar';
 import About from "./About";
 import Education from "./Education";
@@ -56,7 +54,7 @@ const Home =()=>{
                             </div>
 
                             <div className="col-md-12" style={styles.fadeInLeft}>
-                                <div className="wrapper pt-5">
+                                <div className="wrapper pt-md-5 pt-2">
                                     <div className="quote-div">
                                             It does not matter how slowly you go as long as you do not stop.
                                     </div>
