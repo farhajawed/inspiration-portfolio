@@ -1,26 +1,18 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Switch,Redirect} from "react-router-dom";
 import Home from "../components/Home";
-import About from "../components/About";
-import Education from "../components/Education";
-import Slide from 'react-reveal/Slide';
-import Skill from "../components/Skill";
-import Experience from "../components/Experience";
-import Checkout from "../components/Checkout";
-import Footer from "../components/Footer";
+import Portfolio from "../components/Portfolio";
+import ProjectOneMore from "../components/ProjectOneMore";
 
 const Container=()=> {
     return (
-        <div>
-           <Home/>
-            <Slide left>
-               <About/>
-               <Education/>
-               <Skill/>
-               <Experience/>
-               <Checkout/>
-               <Footer/>
-            </Slide>
-        </div>
+        <Router>
+            <div>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/portfolio/:id" render={props => <ProjectOneMore {...props} />}/>
+            </div>
+        </Router>
     )
 }
 export default Container;

@@ -7,6 +7,12 @@ import Radium, {StyleRoot} from 'radium';
 import Slide from 'react-reveal/Slide';
 import axios from "axios";
 import Navbar from '../components/Navbar';
+import About from "./About";
+import Education from "./Education";
+import Skill from "./Skill";
+import Experience from "./Experience";
+import Checkout from "./Checkout";
+import Footer from "./Footer";
 
 
 
@@ -90,6 +96,14 @@ const Home =()=>{
                 <a href="#about"><i className="fa fa-angle-down"></i></a>
             </div>
         </div>
+         <Slide left>
+             <About/>
+             <Education/>
+             <Skill/>
+             <Experience/>
+             <Checkout/>
+             <Footer/>
+         </Slide>
        </StyleRoot>
      )}
 

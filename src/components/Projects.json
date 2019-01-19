@@ -1,0 +1,190 @@
+[
+  {
+     "id":"1",
+     "name":"Visualization of Eating Experience",
+     "technologies":[
+       "d3.js","HTML5","CSS3"
+     ],
+    "summary":"A user-centric website that stores data on eating habit, compiles the data into useful information and visualizes it for self-reflection on eating behaviour. The visualizations includean interactive scatter plot, bar chart, line graph, and parallel co-ordinate plot.",
+    "webLink":"https://farha-neu.github.io/dsViz/",
+    "github":"https://github.com/farha-neu/dsViz",
+    "image":"mock.png",
+    "detail":{
+      "summary":"A user-centric website that stores data on eating habit, compiles the data into useful information",
+      "images":["eat.PNG","eat1.png","eat2.png"],
+      "about":"ghggggffrererryryryttgvbvxsqewertyucvbjjwertyasdfghj"
+    }
+  },
+  {
+    "id":"2",
+    "name":"The Advisor",
+    "technologies":[
+      "Angular","MongoDB","HTML5","CSS3","JavaScript"
+    ],
+    "summary":"A user interface built for providing course recommendations to graduate students of CCIS based on personalized preferences. The prototype went through various phases of user evaluations - requirement analysis, paper & computer prototyping, and a final usability study.",
+    "webLink":"coming-up",
+    "github":"https://github.com/farha-neu/CCIS-Advisors",
+    "image":"mock.png",
+    "detail":{
+      "summary":"",
+      "images":[],
+      "about":""
+    }
+  },
+  {
+    "id": "3",
+    "name": "Music, Ticket and Lyrics",
+    "technologies": [
+      "Materialize",
+      "jQuery",
+      "Multiple APIs",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "MTandL is a front-end based music app that allows users to search for their favorite artist, and get the artist's information, top trending tracks, a map of the nearby events, and the artist's upcoming events with links to purchase tickets.",
+    "webLink": "https://farha-neu.github.io/Music-Ticket-Lyrics/",
+    "github": "https://github.com/farha-neu/Music-Ticket-Lyrics",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "4",
+    "name": "Native Spot",
+    "technologies": [
+      "Node.js",
+      "Sequelize",
+      "MySQL",
+      "Express",
+      "jQuery",
+      "JavaScript",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "A web application that gives users a place to post about fun things that are going on in their local area. Other users can make comments on the posts and ask questions.",
+    "webLink": "https://dry-savannah-57068.herokuapp.com/",
+    "github": "https://github.com/farha-neu/ask-a-local",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "5",
+    "name": "Bookworm",
+    "technologies": [
+      "Java",
+      "Spring MVC",
+      "Hibernate",
+      "MySQL",
+      "Google Books API",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
+    "webLink": "https://dry-savannah-57068.herokuapp.com/",
+    "github": "https://github.com/farha-neu/ask-a-local",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "6",
+    "name": "Donate It!",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Mongoose",
+      "React",
+      "Zip Code API",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
+    "webLink": "http://donate-it.herokuapp.com/",
+    "github": "https://github.com/farha-neu/donate-it",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "7",
+    "name": "Newyork Times Article Scrubber",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Mongoose",
+      "React",
+      "Newyork Times API",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
+    "webLink": "http://donate-it.herokuapp.com/",
+    "github": "https://github.com/farha-neu/donate-it",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "8",
+    "name": "Food Article Scraper",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Mongoose",
+      "jQuery",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "A web app that automatically scrapes food articles from Washington Post and lets users view and leave comments on those articles. Users can also manually scrape new articles and clear existing ones. ",
+    "webLink": "https://food-article-scraper.herokuapp.com/",
+    "github": "https://github.com/farha-neu/food-article-scraper",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  },
+  {
+    "id": "9",
+    "name": "Memory Game",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "React",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
+    ],
+    "summary": "It is a simple front end memory game that renders different images on screen. The goal of the user is to remember the last fruit he/she clicked on. If he/she clicks on the same image more that once, the game restarts. ",
+    "webLink": "https://farha-neu.github.io/click-game/",
+    "github": "https://github.com/farha-neu/click-game",
+    "image": "mock.png",
+    "detail": {
+      "summary": "",
+      "images": [],
+      "about": ""
+    }
+  }
+]

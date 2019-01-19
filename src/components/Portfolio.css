@@ -1,0 +1,139 @@
+
+.work-header {
+    font-family: 'IM Fell English SC', serif;
+    color:#B79BDC;
+}
+
+.work-logo{
+    height: 100px;
+}
+
+.portfolio-intro{
+    background: whitesmoke;
+    color: #06152C;
+}
+
+.portfolio-intro-header{
+    color: slategray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.portfolio-intro-div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.portfolio-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.project-one,.project-three,.project-five,.project-seven{
+    color:whitesmoke;
+    background-color: #31355b;;
+}
+
+/*.project-two{*/
+    /*color:whitesmoke;*/
+    /*background-color: slategray;*/
+/*}*/
+
+.project-two,.project-four,.project-six,.project-eight{
+    color:whitesmoke;
+    background-color: steelblue;
+}
+
+/*.project-four{*/
+    /*color: black;*/
+    /*background-color: linen;*/
+/*}*/
+
+/*.project-five{*/
+    /*color:whitesmoke;*/
+    /*background-color: steelblue;*/
+/*}*/
+
+/*.project-six{*/
+    /*color:black;*/
+    /*background-color: paleturquoise;*/
+/*}*/
+
+/*.project-seven{*/
+    /*color:whitesmoke;*/
+    /*background-color: darkslateblue;*/
+/*}*/
+
+/*.project-eight{*/
+    /*color:whitesmoke;*/
+    /*background-color: cadetblue;*/
+/*}*/
+/*.project-six .project-name, .project-four .project-name{*/
+    /*color: black;*/
+/*}*/
+
+.portfolio-div{
+    color: whitesmoke;
+}
+/**
+Project styles
+ */
+
+.project-div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.project-image{
+    max-width:650px;
+    width:100%;
+}
+
+.project-name{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.project-tech span{
+    padding:5px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.14);
+    font-size: 14px;
+}
+
+.project-tech span:not(:last-child){
+
+    margin-right:5px;
+}
+
+.project-buttons .btn{
+    text-transform: uppercase !important;
+    background: rgba(0,0,0,.4);
+    color:whitesmoke;
+    border: 2px solid rgba(0,0,0,.1);
+    font-weight: bold;
+}
+
+.project-buttons .btn:hover{
+    background: #2a4444;
+}
+
+.carousel-img{
+    max-width: 700px;
+    margin:0 auto;
+}
+
+.slider-img{
+    border:1px solid white;
+}
+
+.project-header{
+    font-family: 'IM Fell English SC', serif;
+    color:#B79BDC;
+}
+
+.left{
+    color:whitesmoke;
+}

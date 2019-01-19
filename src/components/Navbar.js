@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
+import brand from './img/brand.png'
 
 const Navbar=(props)=> {
     function renderDots(){
@@ -12,7 +14,7 @@ const Navbar=(props)=> {
     return (
             <nav className="navbar navbar-expand-lg pr-md-5 float-md-right">
                 <a className="navbar-brand" href="/">
-                    <img src="images/brand.png" className="brand ml-2"/>
+                    <img src={brand} className="brand ml-2"/>
                 </a>
                 <button className="navbar-toggler"
                         type="button"
@@ -26,10 +28,13 @@ const Navbar=(props)=> {
                 <div className="collapse navbar-collapse"
                      id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
-                        <a className={props.current==='Home'?'nav-item nav-link custom-link active':'custom-link nav-item nav-link'}
-                                      href="#">ABOUT</a>
-                        <a className="nav-item nav-link custom-link" href="#">PORTFOLIO</a>
-                        <a className="nav-item nav-link custom-link" href="#">RESUME</a>
+                        <Link className={props.current==='Home'?'nav-item nav-link custom-link active'
+                                      :'custom-link nav-item nav-link'}
+                                      to="/">ABOUT</Link>
+                        <Link className={props.current==='Portfolio'?'nav-item nav-link custom-link active'
+                                       :'custom-link nav-item nav-link'}
+                                       to="/portfolio">PORTFOLIO</Link>
+                        <Link className="nav-item nav-link custom-link" to="#">RESUME</Link>
                     </div>
                 </div>
             </nav>
