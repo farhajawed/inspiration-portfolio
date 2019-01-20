@@ -6,7 +6,7 @@ import ProjectDetail from "../components/ProjectDetail";
 
 const Container=()=> {
     return (
-        <Router>
+        <Router >
             <div>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={Portfolio} />
