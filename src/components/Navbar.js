@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-import brand from './img/brand.png'
+
 
 const Navbar=(props)=> {
     function renderDots(){
@@ -14,7 +14,7 @@ const Navbar=(props)=> {
     return (
             <nav className="navbar navbar-expand-lg pr-md-5 float-md-right">
                 <a className="navbar-brand" href="/">
-                    <img src={brand} className="brand ml-2"/>
+                    <img src="../images/brand.png" className="brand ml-2"/>
                 </a>
                 <button className="navbar-toggler"
                         type="button"

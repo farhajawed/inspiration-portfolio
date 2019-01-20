@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css"
-import cat from './img/cat.png'
+
 
 const Footer = ()=>
     <div className="footer text-center pt-5">
         <div>
-            <img src={cat}/>
+            <img src="../images/cat.png"/>
         </div>
         <div className="footer-content">
             <div className="connection mb-2">
