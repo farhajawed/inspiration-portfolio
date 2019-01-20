@@ -50,7 +50,7 @@ const Home =()=>{
                             <div className="intro-div col-md-12" style={styles.fadeInLeft}>
                                 <h3 className="intro-1 mb-4">Hi,</h3>
                                 <h1 className="intro-2">I'M FARHA JAWED</h1>
-                                <h2 className="intro-3">I'M A WEB DEVELOPER AND DESIGNER</h2>
+                                <h2 className="intro-3">- A Web Developer & UI/UX Designer</h2>
                             </div>
 
                             <div className="col-md-12" style={styles.fadeInLeft}>

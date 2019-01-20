@@ -57,16 +57,19 @@ const Education=()=> {
                    <div className="col-md-5 col-12 text-center school-div">
                        <div className="school">
                            <p><i className="fa fa-graduation-cap"></i>
-                               {" "}<a href="">California State University, Northridge, CA</a>
+                               {" "}California State University, Northridge, CA
                            </p>
                            <p>MS in Engineering Management, Ongoing</p>
                        </div>
                        <div className="school">
-                           <p><i className="fa fa-graduation-cap"></i> <a href="">Northeastern University, Boston, MA</a></p>
+                           <p><i className="fa fa-graduation-cap"></i>
+                               Northeastern University, Boston, MA</p>
                            <p>MS in Computer Science, 2018</p>
                        </div>
                        <div className="school">
-                           <p><i className="fa fa-graduation-cap"></i> <a href="">Military Institute of Science & Technology, Dhaka, Bangladesh</a></p>
+                           <p><i className="fa fa-graduation-cap"></i>
+                               Military Institute of Science & Technology, Dhaka, Bangladesh
+                           </p>
                            <p>BS in Computer Science & Engineering, 2015</p>
                        </div>
                </div>
