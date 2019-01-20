@@ -27,7 +27,7 @@
     "image":"project2.PNG",
     "detail":{
       "summary":"CCIS Graduate Academic Advisor(CGAA) is a web application designed, implemented and evaluated to help graduate students of College of Computer and Information Sciences(CCIS) with course selection based on personalized preferences during their initial semesters at Northeastern University.",
-      "images":["p2-8.png","p2.png","p2-1.png","p2-2.png","p2-3.png","p2-4.png","p2-5.png","p2-6.png","p2-7.png"],
+      "images":["p2-8.PNG","p2.PNG","p2-1.PNG","p2-2.PNG","p2-3.PNG","p2-4.PNG","p2-5.PNG","p2-6.PNG","p2-7.PNG"],
       "about":"CGAA is a platform where a user needs to fill out a questionnaire and the system recommends courses based on personalized preferences. Here students can get course recommendations with important course details and post their queries for feedback. I collaborated with a team of five students to design the application. I helped in conducting the various phases of user evaluations - requirement analysis, paper & computer prototyping, and a final usability study.  At each iteration we analyzed the findings, and major flaws were corrected, which resulted in an enhanced overall user experience as found by our final usability study."
     }
   },
@@ -71,7 +71,7 @@
     "image": "project4.PNG",
     "detail": {
       "summary": "Native spot is a web application that gives users a place to post about fun things that are going on in their local area.",
-      "images": ["spot.png","spot1.png","spot2.png","spot4.png","spot5.png","spot6.png"],
+      "images": ["spot.PNG","spot1.PNG","spot2.PNG","spot4.PNG","spot5.PNG","spot6.PNG"],
       "about": "Native Spot is a place for users to write about places, restaurants, and shopping. The purpose of the website is to help users who are visiting an area they are unfamiliar with. The users can know about places of attraction, convenient malls to shop, and good restaurants to dine-in. Users need to sign up and log in to use this application. Once they log in, they will land on a dashboard page that allows them to view their profile and add/edit details. They can share their posts by selecting a category and other users can make comments on the posts and ask questions. It also has an administrator functionality to add/edit categories, enable/disable users' profiles and moderate users' posts. The future extension of this ongoing project is to categorize posts based on location and integrate google maps.The front-end was built using Bootstrap, jQuery; backend relies on Node.js, Express, MySql, and Sequelize. This website was built from scratch in seven days in a group of three as a part of UCLA coding bootcamp. "
     }
   },
@@ -141,7 +141,7 @@
     "image": "project7.PNG",
     "detail": {
       "summary": "Newyork Times Article Scrubber is an SPA (Single Page Application) that I created during my initial days of learning React.",
-      "images": ["ny.png","ny1.png"],
+      "images": ["ny.PNG","ny1.PNG"],
       "about": "The purpose of the website is to search and save articles published in New York Times. The home page has search options for querying the New York Times API for articles by topic and optional start and end years. It displays the results from the API search in a rendered list that contains the article title, publication date, and author's name. It also allows the user to visit an article's url or save the article for future reference. It is built using React, Node.js, Express, Mongoose, MongoDB, and Bootstrap. "
     }
   },
@@ -163,7 +163,7 @@
     "image": "project8.PNG",
     "detail": {
       "summary": "Food Article Scraper is a small web application that I built to utilize the newly gained skill of scraping web contents.",
-      "images": ["food.png","food1.png"],
+      "images": ["food.PNG","food1.PNG"],
       "about": "It is a web app that scrapes food articles from Washington Post using Cheerio NPM package. Whenever a user visits the site, the app scrapes food stories from Washington Post and displays them for the user. Each scraped article is saved to the application database (MongoDB). Users can save articles from home page to revisit them later and leave comments on the saved articles. Users can also delete previous comments left. It is built using jQuery, Node.js, Express, Mongoose, MongoDB, and Bootstrap. "
     }
   },
@@ -184,7 +184,7 @@
     "image": "project9.PNG",
     "detail": {
       "summary": "It is a memory game built for kids using React.",
-      "images": ["click-game.png"],
+      "images": ["click-game.PNG"],
       "about": "It is a simple front end memory game built using React that renders different images of fruits on the screen. The application keeps track of the user's score. The user's score is incremented by clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once. Every time an image is clicked, the images rendered to the page reshuffle. Once the user's score is reset after an incorrect guess, the game restarts. "
     }
   }
