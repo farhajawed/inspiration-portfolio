@@ -70,7 +70,6 @@ Project styles
 }
 
 .project-name{
-    font-size: 30px;
     color: white;
     font-weight: bold;
 }
@@ -103,7 +102,6 @@ Project styles
 }
 
 
-
 .project-header{
     font-family: 'IM Fell English SC', serif;
     color:#B79BDC;
@@ -112,3 +110,5 @@ Project styles
 .left{
     color:whitesmoke;
 }
+
+

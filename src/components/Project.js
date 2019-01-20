@@ -10,7 +10,7 @@ const Project = ({project,color})=>
                     <img src={"images/"+project.image} className="project-image img-fluid" />
                 </div>
                 <div className="col-md-12 project-name m-1">
-                    {project.name}
+                    <h2>{project.name}</h2>
                 </div>
                 <div className="col-md-12 project-tech mb-2">
                     {project.technologies.map((technology,index)=>(
