@@ -118,7 +118,7 @@
     "image": "project6.PNG",
     "detail": {
       "summary": "Donate It! is a MERN stack web application built to make the process of donation easier for people.",
-      "images": ["donate.PNG","donate1.PNG","donate2.PNG","donate3.PNG","donate4.PNG"],
+      "images": ["donate.PNG","donate1.PNG","donate2.PNG","donate3.PNG"],
       "about": "Donate It! is a platform built using React, Mongoose, Node.js and Express to make the process of donation easier for people. You may be relocating to a new place or your items may be becoming old, or you may simply want to help people in need- Donate It! is just for you. Users can search for items by name, category and/or location defined by maximum distance from a given zipcode. In order to post or request an item, users need to sign up first. After a user logs in to our system, he/she will be able to send a request for an item and post new items up for donation. When the donor accepts the request for donation, that item will no longer be available in search. The future extension for this project will include a feature for swapping of items. Users will get points based on the number of products they donated and reviews from other users to whom they donated the items."
     }
   },
