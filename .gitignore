@@ -6,8 +6,8 @@
 .pnp.js
 .vscode
 /.idea
-package-lock.json
-yarn.lock
+/package-lock.json
+/yarn.lock
 
 # testing
 /coverage
