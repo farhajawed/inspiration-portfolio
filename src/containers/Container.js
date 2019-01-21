@@ -1,18 +1,19 @@
 import React from 'react'
 import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter } from 'react-router-dom'
 import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import ProjectDetail from "../components/ProjectDetail";
 
 const Container=()=> {
     return (
-        <Router >
+        <HashRouter>
             <div>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/portfolio/:id" render={props => <ProjectDetail {...props} />}/>
             </div>
-        </Router>
+        </HashRouter>
     )
 }
 export default Container;

@@ -95,7 +95,7 @@ const Home =()=>{
                 </div>
             </div>
             <div className="text-center down">
-                <a href="#about"><i className="fa fa-angle-down"></i></a>
+                <a href="/"><i className="fa fa-angle-down"></i></a>
             </div>
         </div>
          <Slide left>
