@@ -5,17 +5,17 @@ import "./Footer.css"
 const Footer = ()=>
     <div className="footer text-center pt-5">
         <div>
-            <img src="../images/cat.png"/>
+            <img src="../images/cat.png" alt={"footer-cat-img"}/>
         </div>
         <div className="footer-content">
             <div className="connection mb-2">
-                <a href="https://github.com/farha-neu" target="_blank" className="mr-3">
+                <a href="https://github.com/farha-neu" rel="noopener noreferrer" target="_blank" className="mr-3">
                     github
                 </a>
-                <a href="https://www.linkedin.com/in/farhajawed/" target="_blank" className="mr-3">
+                <a href="https://www.linkedin.com/in/farhajawed/" rel="noopener noreferrer" target="_blank" className="mr-3">
                     linkedin
                 </a>
-                <a href="mailto:farhajw@gmail.com" target="_blank">
+                <a href="mailto:farhajw@gmail.com" rel="noopener noreferrer" target="_blank">
                     email
                 </a>
             </div>

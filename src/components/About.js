@@ -1,12 +1,12 @@
 import React from 'react'
 import './About.css'
-
+import {Link} from 'react-router-dom'
 const About=()=> {
     return (
        <div className="container about-div mt-5" id="about">
            <div className="row">
                <div className="col-md-12 image-div text-center">
-                   <img src="images/me.jpg" className="img-fluid my-image"/>
+                   <img src="images/me.jpg" alt="my pp" className="img-fluid my-image"/>
                    {/*<img src="images/me.jpg" className="img-fluid my-image2"/>*/}
                </div>
                <div className="col-12 header text-center mt-4">
@@ -22,14 +22,15 @@ const About=()=> {
                      online diary, and data visualization with a focus on user experience.
                      I am seeking internship opportunities in web development,
                      human-computer interaction, and user experience design sectors.
-                     You can view my past projects by clicking on my <a href="" className="custom-link">Portfolio</a> page.
+                     My past projects can be found {" "}
+                     <Link to="/portfolio" className="custom-link">here</Link>.
                  </p>
                  <p>
                      FUN FACT: I am passionate about origami. I enjoy cutting and folding papers to design new patterns.
                  </p>
                </div>
                <div className="col-md-12 text-center">
-                   <img src="images/coffee.png" className="coffee"/>
+                   <img src="images/coffee.png" className="coffee" alt={"partition"}/>
                </div>
            </div>
 

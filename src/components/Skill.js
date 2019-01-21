@@ -11,7 +11,7 @@ const Skill=()=> {
                <div className="col-md-3">
                    <div className="tech">
                        <div className="circle text-center">
-                           <img src="images/front.png" className="bg-img"/>
+                           <img src="images/front.png" className="bg-img" alt={"front-end"}/>
                        </div>
                    </div>
                    <div className="name-div mt-3">
@@ -28,7 +28,7 @@ const Skill=()=> {
                <div className="col-md-3 mt-2 mt-md-0">
                    <div className="tech">
                        <div className="circle text-center">
-                           <img src="images/backend.png" className="bg-img"/>
+                           <img src="images/backend.png" className="bg-img" alt={"back-end"}/>
                        </div>
                    </div>
                    <div className="name-div mt-3">
@@ -47,7 +47,7 @@ const Skill=()=> {
                <div className="col-md-3 mt-3 mt-md-0">
                    <div className="tech">
                        <div className="circle text-center">
-                           <img src="images/coding.png" className="bg-img"/>
+                           <img src="images/coding.png" className="bg-img" alt={"programming"}/>
                        </div>
                    </div>
                    <div className="name-div mt-3">
@@ -63,7 +63,7 @@ const Skill=()=> {
                <div className="col-md-3 mt-3 mt-md-0">
                    <div className="tech">
                        <div className="circle text-center">
-                           <img src="images/ui.png" className="bg-img"/>
+                           <img src="images/ui.png" className="bg-img" alt={"ux"}/>
                        </div>
                    </div>
                    <div className="name-div mt-3">

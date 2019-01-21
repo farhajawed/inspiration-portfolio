@@ -184,7 +184,7 @@
     "image": "project9.PNG",
     "detail": {
       "summary": "It is a memory game built for kids using React.",
-      "images": ["click-game.PNG"],
+      "images": ["project9.PNG"],
       "about": "It is a simple front end memory game built using React that renders different images of fruits on the screen. The application keeps track of the user's score. The user's score is incremented by clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once. Every time an image is clicked, the images rendered to the page reshuffle. Once the user's score is reset after an incorrect guess, the game restarts. "
     }
   }

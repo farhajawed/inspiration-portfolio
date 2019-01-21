@@ -4,17 +4,10 @@ import {Link} from 'react-router-dom'
 
 
 const Navbar=(props)=> {
-    function renderDots(){
-        let dots=[];
-        for(var i= 0; i<8;i++){
-            dots.push(i);
-        }
-        return dots;
-    }
     return (
             <nav className="navbar navbar-expand-lg pr-md-5 float-md-right">
                 <a className="navbar-brand" href="/">
-                    <img src="../images/brand.png" className="brand ml-2"/>
+                    <img src="../images/brand.png" alt="brand" className="brand ml-2"/>
                 </a>
                 <button className="navbar-toggler"
                         type="button"
@@ -35,7 +28,9 @@ const Navbar=(props)=> {
                                        :'custom-link nav-item nav-link'}
                                        to="/portfolio">PORTFOLIO</Link>
                         <a href="https://drive.google.com/open?id=1FeKZIzyMFXyMexIiFGFjPNGZsGZtNXPt"
-                           className="nav-item nav-link custom-link" target="_blank">RESUME</a>
+                           className="nav-item nav-link custom-link"
+                           rel="noopener noreferrer"
+                           target="_blank">RESUME</a>
                     </div>
                 </div>
             </nav>

@@ -2,7 +2,6 @@ import React from "react";
 import "./ProjectDetail.css"
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import PortfolioHeader from "./PortfolioHeader";
 import PortfolioService from "./PortfolioService"
 import {Link} from 'react-router-dom'
 
@@ -36,36 +35,41 @@ class ProjectDetail extends React.Component{
                     </div>
                     <div className="pro-buttons pb-4">
                         {this.state.project.webLink?
-                        <a className="btn btn-link mr-2" target="_blank" href={this.state.project.webLink}>
+                        <a className="btn btn-link mr-2"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           href={this.state.project.webLink}>
                             <i className="fa fa-link"></i>
                         </a>:""}
                         {this.state.project.videoLink?
-                            <a className="btn btn-link mr-2" target="_blank" href={this.state.project.videoLink}>
-                                <i className="fa fa-eye"></i>
+                            <a className="btn btn-link mr-2" rel="noopener noreferrer" target="_blank" href={this.state.project.videoLink}>
+                                <i className="fa fa-eye" alt="Video Link"></i>
                             </a>:""}
-                        <a className="btn btn-git mr-2" target="_blank" href={this.state.project.github}>
-                            <i className="fa fa-github"></i>
+                        <a className="btn btn-git mr-2" rel="noopener noreferrer" target="_blank" href={this.state.project.github}>
+                            <i className="fa fa-github" alt="Github Link"></i>
                         </a>
                         {this.state.project.gitWiki?
-                            <a className="btn btn-link mr-2" target="_blank" href={this.state.project.gitWiki}>
-                                <i className="fa fa-info-circle"></i>
+                            <a className="btn btn-link mr-2" rel="noopener noreferrer" target="_blank" href={this.state.project.gitWiki}>
+                                <i className="fa fa-info-circle" alt="Github Wiki Link"></i>
                             </a>:""}
                     </div>
                     <div id="project1-carousel" className="carousel slide carousel-img" data-ride="carousel">
                         <ol className="carousel-indicators">
                             {this.state.project.detail!==undefined?
                                 this.state.project.detail.images.map((image,index)=>(
-                                    <li data-target="#project1-carousel" data-slide-to={index}
+                                    <li index={index}
+                                        data-target="#project1-carousel"
+                                        data-slide-to={index}
                                         className={index===0?"active":""}></li>
                                 )):""}
                         </ol>
                         <div className="carousel-inner">
                             {this.state.project.detail!==undefined?
                                 this.state.project.detail.images.map((image,index)=>(
-                                    <div className={index===0?"carousel-item active":"carousel-item"}>
+                                    <div key={index} className={index===0?"carousel-item active":"carousel-item"}>
                                         <img className="d-block w-100 slider-img"
                                              src={"../images/"+image}
-                                             alt="First slide"/>
+                                             alt="slide"/>
                                     </div>
                                 )):""}
                         </div>

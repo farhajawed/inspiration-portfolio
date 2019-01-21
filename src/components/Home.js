@@ -45,7 +45,7 @@ const Home =()=>{
                     <div className="col-md-8 col-12">
                         <div className="row mt-md-5">
                             <div className="col-md-12">
-                                <img src="images/girl.png" className="avator" style={styles.bounce}/>
+                                <img src="images/girl.png" alt="girl-logo" className="avator" style={styles.bounce}/>
                             </div>
                             <div className="intro-div col-md-12" style={styles.fadeInLeft}>
                                 <h3 className="intro-1 mb-4">Hi,</h3>
@@ -71,22 +71,26 @@ const Home =()=>{
                         </div>
                     </div>
                     <div className="col-md-4 col-12 mt-4 text-center logo-div">
-                        <img src="images/logo3.png" className="logo"/>
+                        <img src="images/logo3.png" className="logo" alt={"abstract-logo"}/>
                     </div>
                 </div>
                 <div className="connect-div d-none d-md-inline-block">
                     <div className="connect">
                         {renderDots(6).map((dot,i)=>
-                            <div className="dot"><img key={i}
-                                 src="images/dots.png"
-                                      className="dots"/></div>)}
-                        <a href="https://github.com/farha-neu" target="_blank"><i className="fa fa-github-square"></i></a><br/>
-                        <a href="https://www.linkedin.com/in/farhajawed/" target="_blank"><i className="fa fa-linkedin"></i></a><br/>
-                        <a href="mailto:farhajw@gmail.com" target="_blank"><i className="fa fa-envelope"></i></a><br/>
+                            <div key={i} className="dot">
+                                <img src="images/dots.png"
+                                     alt={"o"}
+                                     className="dots"/></div>)}
+                        <a href="https://github.com/farha-neu" rel="noopener noreferrer" target="_blank"><i className="fa fa-github-square"></i></a><br/>
+                        <a href="https://www.linkedin.com/in/farhajawed/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a><br/>
+                        <a href="mailto:farhajw@gmail.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-envelope"></i></a><br/>
                         {renderDots(2).map((dot,i)=>
-                            <div className="dot"><img key={i}
-                                      src="images/dots.png"
-                                      className="dots"/></div>)}
+                            <div key={i} className="dot">
+                                    <img key={i}
+                                         alt={"o"}
+                                         src="images/dots.png"
+                                         className="dots"/>
+                            </div>)}
                     </div>
                 </div>
             </div>
