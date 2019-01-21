@@ -27,7 +27,7 @@ const Navbar=(props)=> {
                         <Link className={props.current==='Portfolio'?'nav-item nav-link custom-link active'
                                        :'custom-link nav-item nav-link'}
                                        to="/portfolio">PORTFOLIO</Link>
-                        <a href="https://drive.google.com/open?id=1FeKZIzyMFXyMexIiFGFjPNGZsGZtNXPt"
+                        <a href="https://drive.google.com/open?id=1-QsHM0SzswkiC06P6yhk-YbqRyIGrAle"
                            className="nav-item nav-link custom-link"
                            rel="noopener noreferrer"
                            target="_blank">RESUME</a>
