@@ -6,7 +6,7 @@ const About=()=> {
        <div className="container about-div mt-5" id="about">
            <div className="row">
                <div className="col-md-12 image-div text-center">
-                   <img src="images/me(2).png" alt="my pp" className="img-fluid my-image"/>
+                   <img src="images/me3.jpg" alt="my pp" className="img-fluid my-image"/>
                    {/*<img src="images/me.jpg" className="img-fluid my-image2"/>*/}
                </div>
                <div className="col-12 header text-center mt-4">

@@ -63,7 +63,7 @@ const Home =()=>{
                             </div>
                             <div className="col-md-4 mt-3">
                                     <a className="btn btn-custom"
-                                       href="mailto:farhajw@gmail.com"
+                                       href="mailto:farhajw8@gmail.com"
                                        target="_top">
                                         Get In Touch
                                     </a>
@@ -83,7 +83,7 @@ const Home =()=>{
                                      className="dots"/></div>)}
                         <a href="https://github.com/farha-neu" rel="noopener noreferrer" target="_blank"><i className="fa fa-github-square"></i></a><br/>
                         <a href="https://www.linkedin.com/in/farhajawed/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a><br/>
-                        <a href="mailto:farhajw@gmail.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-envelope"></i></a><br/>
+                        <a href="mailto:farhajw8@gmail.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-envelope"></i></a><br/>
                         {renderDots(2).map((dot,i)=>
                             <div key={i} className="dot">
                                     <img key={i}

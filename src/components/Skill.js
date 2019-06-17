@@ -20,7 +20,7 @@ const Skill=()=> {
                        CSS3<br/>
                        SASS<br/>
                        Bootstrap<br/>
-                       React<br/>
+                       React.js<br/>
                        jQuery<br/>
                        d3.js
                    </div>
@@ -34,14 +34,13 @@ const Skill=()=> {
                    <div className="name-div mt-3">
                        <div className="skill-grp-name">Back End</div>
                        Node.js<br/>
-                       Express<br/>
+                       Express.js<br/>
                        Spring Boot<br/>
+                       Ruby on Rails<br/>
                        MySQL<br/>
                        JPA<br/>
                        MongoDB
-                       <div className="d-md-block d-none">
-                         <br/>
-                       </div>
+                      
                    </div>
                </div>
                <div className="col-md-3 mt-3 mt-md-0">
@@ -54,7 +53,7 @@ const Skill=()=> {
                        <div className="skill-grp-name">Languages</div>
                        Java<br/>
                        JavaScript<br/>
-                       Python
+                       Ruby
                        <div className="d-md-block d-none">
                            <br/><br/><br/><br/>
                        </div>
