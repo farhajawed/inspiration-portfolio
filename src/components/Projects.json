@@ -6,8 +6,8 @@
        "d3.js","HTML5","CSS3"
      ],
     "summary":"A user-centric website that stores data on eating habit, compiles the data into useful information and visualizes it for self-reflection on eating behaviour. The visualizations includean interactive scatter plot, bar chart, line graph, and parallel co-ordinate plot.",
-    "webLink":"https://farha-neu.github.io/dsViz/",
-    "github":"https://github.com/farha-neu/dsViz",
+    "webLink":"https://farhajawed.github.io/dsViz/",
+    "github":"https://github.com/farhajawed/dsViz",
     "image":"project1.png",
     "detail":{
       "summary":"Visualization of Eating Experience is a final group project for my CS7295- Information Visualization course, aimed at promoting self-reflection on eating behaviour.",
@@ -22,8 +22,8 @@
       "Angular","MongoDB","HTML5","CSS3","JavaScript"
     ],
     "summary":"A user interface built for providing course recommendations to graduate students of CCIS based on personalized preferences. The prototype went through various phases of user evaluations - requirement analysis, paper & computer prototyping, and a final usability study.",
-    "webLink":"https://farha-neu.github.io/advisors/login.html",
-    "github":"https://github.com/farha-neu/CCIS-Advisors",
+    "webLink":"https://farhajawed.github.io/advisors/login.html",
+    "github":"https://github.com/farhajawed/CCIS-Advisors",
     "image":"project2.PNG",
     "detail":{
       "summary":"CCIS Graduate Academic Advisor(CGAA) is a web application designed, implemented and evaluated to help graduate students of College of Computer and Information Sciences(CCIS) with course selection based on personalized preferences during their initial semesters at Northeastern University.",
@@ -42,8 +42,8 @@
       "CSS3"
     ],
     "summary": "MTandL is a front-end based music app that allows users to search for their favorite artist, and get the artist's information, top trending tracks, a map of the nearby events, and the artist's upcoming events with links to purchase tickets.",
-    "webLink": "https://farha-neu.github.io/Music-Ticket-Lyrics/",
-    "github": "https://github.com/farha-neu/Music-Ticket-Lyrics",
+    "webLink": "https://farhajawed.github.io/Music-Ticket-Lyrics/",
+    "github": "https://github.com/farhajawed/Music-Ticket-Lyrics",
     "image": "project3.PNG",
     "detail": {
       "summary": "MT&L is a front-end web application built primarily with jQuery and six third-party APIs.",
@@ -67,7 +67,7 @@
     ],
     "summary": "A web application that gives users a place to post about fun things that are going on in their local area. Other users can make comments on the posts and ask questions.",
     "webLink": "https://dry-savannah-57068.herokuapp.com/",
-    "github": "https://github.com/farha-neu/ask-a-local",
+    "github": "https://github.com/farhajawed/ask-a-local",
     "image": "project4.PNG",
     "detail": {
       "summary": "Native spot is a web application that gives users a place to post about fun things that are going on in their local area.",
@@ -90,8 +90,8 @@
     ],
     "summary": "It is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
     "videoLink": "https://www.youtube.com/watch?v=VHqKyLIAfF4",
-    "github": "https://github.com/farha-neu/CS5200--Bookworm",
-    "gitWiki":"https://github.com/farha-neu/CS5200--Bookworm/wiki",
+    "github": "https://github.com/farhajawed/CS5200--Bookworm",
+    "gitWiki":"https://github.com/farhajawed/CS5200--Bookworm/wiki",
     "image": "project5.PNG",
     "detail": {
       "summary": "Bookworm is a backend focused application for buying and selling books. Users can search, buy, and sell books, add books to cart and wishlist, review and rate books, and message other users.",
@@ -114,7 +114,7 @@
     ],
     "summary": "Donate It! is an application for donating items that you don't need anymore. Users can post items for donation and interested users can send a request to the donor for approval. User's profile lists all items available for donation, past donated items, incoming requests, and status of sent requests.",
     "webLink": "http://donate-it.herokuapp.com/",
-    "github": "https://github.com/farha-neu/donate-it",
+    "github": "https://github.com/farhajawed/donate-it",
     "image": "project6.PNG",
     "detail": {
       "summary": "Donate It! is a MERN stack web application built to make the process of donation easier for people.",
@@ -137,7 +137,7 @@
     ],
     "summary": "A React-based New York Times Article Search application. Users can search for articles by topic as well as start and end years. The applicattion will show the result from API in a rendered list with article title, publication date, and author name. It also allows the user to visit an article's url or save the article for future reference. ",
     "webLink": "https://newyork-times.herokuapp.com/",
-    "github": "https://github.com/farha-neu/nyt-search",
+    "github": "https://github.com/farhajawed/nyt-search",
     "image": "project7.PNG",
     "detail": {
       "summary": "Newyork Times Article Scrubber is an SPA (Single Page Application) that I created during my initial days of learning React.",
@@ -159,7 +159,7 @@
     ],
     "summary": "A web app that automatically scrapes food articles from Washington Post and lets users view and leave comments on those articles. Users can also manually scrape new articles and clear existing ones. ",
     "webLink": "https://food-article-scraper.herokuapp.com/",
-    "github": "https://github.com/farha-neu/food-article-scraper",
+    "github": "https://github.com/farhajawed/food-article-scraper",
     "image": "project8.PNG",
     "detail": {
       "summary": "Food Article Scraper is a small web application that I built to utilize the newly gained skill of scraping web contents.",
@@ -179,8 +179,8 @@
       "CSS3"
     ],
     "summary": "It is a simple front end memory game that renders different images on screen. The goal of the user is to remember the last fruit he/she clicked on. If he/she clicks on the same image more that once, the game restarts. ",
-    "webLink": "https://farha-neu.github.io/click-game/",
-    "github": "https://github.com/farha-neu/click-game",
+    "webLink": "https://farhajawed.github.io/click-game/",
+    "github": "https://github.com/farhajawed/click-game",
     "image": "project9.PNG",
     "detail": {
       "summary": "It is a memory game built for kids using React.",
