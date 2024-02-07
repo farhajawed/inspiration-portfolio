@@ -9,7 +9,7 @@ const Footer = ()=>
         </div>
         <div className="footer-content">
             <div className="connection mb-2">
-                <a href="https://github.com/farha-neu" rel="noopener noreferrer" target="_blank" className="mr-3">
+                <a href="https://github.com/farhajawed" rel="noopener noreferrer" target="_blank" className="mr-3">
                     github
                 </a>
                 <a href="https://www.linkedin.com/in/farhajawed/" rel="noopener noreferrer" target="_blank" className="mr-3">

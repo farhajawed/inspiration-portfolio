@@ -81,7 +81,7 @@ const Home =()=>{
                                 <img src="images/dots.png"
                                      alt={"o"}
                                      className="dots"/></div>)}
-                        <a href="https://github.com/farha-neu" rel="noopener noreferrer" target="_blank"><i className="fa fa-github-square"></i></a><br/>
+                        <a href="https://github.com/farhajawed" rel="noopener noreferrer" target="_blank"><i className="fa fa-github-square"></i></a><br/>
                         <a href="https://www.linkedin.com/in/farhajawed/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a><br/>
                         <a href="mailto:farhajw8@gmail.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-envelope"></i></a><br/>
                         {renderDots(2).map((dot,i)=>
