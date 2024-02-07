@@ -14,15 +14,13 @@ const About=()=> {
                </div>
                <div className="col-md-12 text-center">
                  <p>
-                  I am a full-stack web developer and designer. I am passionate about designing and developing
+                  I am a full-stack software developer. I am passionate about designing and developing
                      user-friendly, responsive and interactive websites. I have graduated with a Masters degree in
                      Computer Science from Northeastern University in December 2018 with specialization in
                      Human-Computer Interaction. I have designed and
                      developed 10+ dynamic websites from scratch on e-commerce, web-based games,
-                     online diary, and data visualization with a focus on user experience.
-                     I am seeking internship opportunities in web development,
-                     human-computer interaction, and user experience design sectors.
-                     My past projects can be found {" "}
+                     online diary, and data visualization with a focus on user experience. 
+                     My past academic projects can be found {" "}
                      <Link to="/portfolio" className="custom-link">here</Link>.
                  </p>
                  <p>
