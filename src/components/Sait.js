@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from 'react-router-dom'
 
 const Sait = ()=>
     <div className="col-md-8 description">
